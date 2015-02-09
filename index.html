@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Nisus Lawncare | Cincinnati, Ohio</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+  <link rel='stylesheet' href="css/test.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <!--<link rel="stylesheet" href="css/style.css">-->
+</head>
+
+<body>
+
+
+  <header>
+
+    <div class="header">
+    </div>
+    <a href="index.html"><img src="img/New-logo-Nisus.png" class="logo" title="Nisus Lawn Care" alt="Nisus Lawn Care">
+    </a>
+
+    <!--<div class="text">
+   NISUS Lawn Care
+  </div>-->
+  </header>
+
+  <div class="phone">
+    <img src="img/phone16.png" alt="" /><a href="tel:(513)739-8414" title="Call Us">(513)739-8414</a>
+    <img src="img/opened4.png" alt="" /><a href="mailto:info@nisuslawncare.com" title="E-mail Us">info@nisuslawncare.com</a>
+  </div>
+
+  <div id="navigation">
+    <a href="index.html" class="selected" title="Home">Home</a>
+    <a href="Portfolio.html" title="Porfolio">Portfolio</a>
+    <a href="Pest.html" title="Pest Control">Pest Control</a>
+    <a href="Grounds.html" title="Grounds Maintenance">Grounds Maintainence</a>
+    <a href="About.html" title="About Us">About Us</a>
+    <a href="Contact.html" title="Contact Us">Contact Us</a>
+    <a href="#" title="Free Estimate">Free Estimate</a>
+  </div>
+
+  <div id="content">
+
+
+  </div>
+
+  <!--Slideshow begin-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script>
+    $(function () {
+
+      $("#slideshow > div:gt(0)").hide();
+
+      setInterval(function () {
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+      }, 3000);
+
+    });
+  </script>
+
+
+  <div id="slideshow">
+    <div>
+      <img src="img/DSC00214.JPG" alt="">
+    </div>
+    <div>
+      <img src="img/DSC00216.JPG" alt="">
+    </div>
+    <div>
+      <img src="img/DSC00217.JPG" alt="">
+    </div>
+    <div>
+      <img src="img/DSC01018.JPG" alt="">
+    </div>
+    <div>
+      <img src="img/DSC01019.JPG" alt="">
+    </div>
+    <div>
+      <img src="img/DSC01021.JPG" alt="">
+    </div>
+    <div>
+      <img src="img/DSC01683.JPG" alt="">
+    </div>
+    <div>
+      Pretty cool eh? This slide is proof the content can be anything.
+    </div>
+  </div>
+
+
+
+  <!--Slideshow end-->
+  <div id="wrapper">
+
+    <p class="index">Nisus Lawncare is a locally owned and operated company for over 10 years. Providing exceptional service to the Cincinnati Metro area.</p>
+    <p>Paragraph 2</p>
+
+
+    <div id="more">
+
+      <p class="index">Nisus Lawncare is a locally owned and operated company for over 10 years. Providing exceptional service to the Cincinnati Metro area.</p>
+      <p>Paragraph 2</p>
+
+      <div id="logo">
+
+      </div>
+
+
+      <div id="menu">
+
+        <ul>
+        </ul>
+      </div>
+
+
+
+
+
+    </div>
+    <nav id="menu-wrap">
+    </nav>
+  </div>
+  <footer>
+    <div>
+      <img src="img/nisuslogo.jpg" class="logo2" alt="Nisus Lawn care" title="Nisis LawnCare">
+
+    </div>
+    <div id="bottom">
+    </div>
+
+    <p class="line">&copy;2015 Nisus Lawncare. | (513) 739-8414</p>
+  </footer>
+
+</body>
+
+</html>

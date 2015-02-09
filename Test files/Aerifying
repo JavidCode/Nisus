@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Nisus Lawncare | Cincinnati, Ohio</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+  <link rel='stylesheet' href="css/test.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="header">
+    </div>
+    <a href="index.html"><img src="img/New-logo-Nisus.png" class="logo" title="Nisus Lawn Care" alt="Nisus Lawn Care">
+    </a>
+
+    <!--<div class="text">
+  NISUS Lawn Care
+  </div>-->
+  </header>
+
+  <div class="phone">
+    <img src="img/phone16.png" alt="" /><a href="tel:(513)739-8414" title="Call Us">(513)739-8414</a>
+    <img src="img/opened4.png" alt="" /><a href="mailto:info@nisuslawncare.com" title="E-mail Us">info@nisuslawncare.com</a>
+  </div>
+
+
+
+  <div id="navigation">
+    <a href="index.html" title="Home">Home</a>
+    <a href="Portfolio.html" title="Porfolio">Portfolio</a>
+    <a href="Pest.html" title="Pest Control">Pest Control</a>
+    <a href="Grounds.html" class="selected" title="Grounds Maintenance">Grounds Maintenance</a>
+    <a href="About.html" title="About Us">About Us</a>
+    <a href="Contact.html" title="Contact Us">Contact Us</a>
+    <a href="#" title="Free Estimate">Free Estimate</a>
+  </div>
+
+  <!--<div id="content">-->
+  <p>Nisus Lawn is a locally owned and operated company with over 20 years of experience in the green industry. We are dedicated to keeping it simple for our customers. We focus on the details, so you don't have to. We want our customers to be happy and 100% satisfied with our services.</p>
+  <p>There are many large companies within the green industry. What separates Nisus from the competition is our goal to provide quality service with the personal attention of a small business.</p>
+  <p>As the company continues to grow, we are excited about the launching of our state licensed structural pest control division. Browse our website and contact us for any of your commercial or residential grounds maintenance needs.</p>
+
+
+  <!--</div>-->
+
+
+
+  <!--<div id="aer">
+
+	<p>How will Aerifying help?</p>
+		<p>Penetrates thatch or compacted soil layers
+Aerifyers push through thatch or compacted layers into the soil zone. Fertilizer, air and moisture can then penetrate down to the roots.</p>
+
+
+<div id="aer1">
+
+	<p>Helps control thatch build-up
+Soil brought to the surface by aerifyers contains microorganisms which help begin the breakdown of thatch tissue.</p>
+
+<div id="aer2">
+
+  <p>Reduces compaction
+Aerifying penetrates hard soil layers and lets in air, water and fertilizer to encourage new root growth. It also provides room for the soil to expand into the holes, reducing the compaction.
+</p>
+
+<div id="aer3">
+
+  <p>Reduces compaction
+Aerifying penetrates hard soil layers and lets in air, water and fertilizer to encourage new root growth. It also provides room for the soil to expand into the holes, reducing the compaction.
+</p>
+
+<div id="aer4">
+
+  <p>Reduces compaction
+Aerifying penetrates hard soil layers and lets in air, water and fertilizer to encourage new root growth. It also provides room for the soil to expand into the holes, reducing the compaction.
+</p>-->
+
+  <div class="banner">
+    <div class="post-thumb">
+      <p style="color: #fff;"><img src="img/aerify.gif"><span style="">Penetrates thatch or compacted soil layers<br><br>
+Aerifyers push through thatch or compacted layers into the soil zone. Fertilizer, air and moisture can then penetrate down to the roots.</span>
+        <br>
+        <div class="post-content">
+          <p>Helps control thatch build-up
+            <br>
+            <br> Soil brought to the surface by aerifyers contains microorganisms which help begin the breakdown of thatch tissue.</span>
+          </p>
+          <br>
+
+          <p>Reduces compaction
+            <br>
+            <br> Aerifying penetrates hard soil layers and lets in air, water and fertilizer to encourage new root growth. It also provides room for the soil to expand into the holes, reducing the compaction.
+            </span>
+          </p>
+          <br>
+
+          <p>Stimulates new root growth
+            <br>
+            <br> Aerifying helps rejuvenate turf by allowing the roots to grow deeper, creating healthier plants and keeping the lawn thick and green.
+            </span>
+          </p>
+
+
+        </div>
+    </div>
+
+    <div id="header-wrapper">
+
+      <div id="header">
+
+        <div id="logo">
+
+        </div>
+
+
+        <div id="menu">
+
+          <ul>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <nav id="menu-wrap">
+  </nav>
+  </div>
+  <footer>
+    <div>
+      <img src="img/nisuslogo.jpg" class="logo2" alt="Nisus Lawn Care" title="Nisis Lawn Care">
+
+    </div>
+    <div id="bottom">
+    </div>
+
+    <p class="line">&copy;2015 Nisus Lawncare. | (513) 739-8414</p>
+  </footer>
+
+</body>
+
+</html>

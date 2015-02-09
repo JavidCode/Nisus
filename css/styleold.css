@@ -1,0 +1,38 @@
+a:link {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+body {
+color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+H1 { font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+H2 { font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+

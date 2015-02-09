@@ -1,0 +1,446 @@
+@font-face {
+  font-family: him;
+  src: url(../fonts/himalaya.ttf);
+}
+
+header {
+  font-family: him;
+  font-size: 3em;
+  color: white;
+}
+/*.wrapper {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 50px
+}*/
+/*.banner p {
+  font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin-top: -10px;
+  display: block;
+  color: white;
+  padding-top: 20px;
+}
+
+.banner img {
+  float: left;
+  margin: 250px;
+  margin-top: 10px;
+}
+
+.banner .ban2 span {
+  padding-top: 50px;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.banner {
+  margin: 20px 20px 0 0;
+  overflow: auto
+}*/
+/*.post-thumb {
+  float: left
+}
+
+.post-thumb img {
+  display: block
+}
+
+.post-content {
+  margin-left: 210px
+}
+
+.post-title {
+  font-weight: bold;
+  font-size: 200%
+}*/
+/*About para*/
+
+p {
+  text-align: center;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  width: 500px;
+}
+
+p.index {
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+}
+/*#aer aer1 aer2 aer3 aer4 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+#aer1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+#aer2 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+#aer3 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+#aer4 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
+
+.aerify {
+  padding: 1px 1px 1px 1px;
+  border: 1px 1px 1px 1px solid #021a40;
+  background-color: black;
+  position: inherit;
+}*/
+
+#navigation {
+  top: 30;
+  /* position: fixed; */
+  /* removed this for testing */
+  
+  width: 1200px;
+  color: #ffffff;
+  height: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  webkit-box-shadow: 0px 0px 8px 0px #000000;
+  /* Adds shadow to the bottom of the bar */
+  
+  moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 1px 5px 5px 5px rgba(0, 0, -1, 10);
+  list-style-type: none;
+  /* display: inline-block; */
+  /* removed this for testing */
+  
+  margin: 0 auto;
+  /* Added this to center the div */
+}
+
+#navigation a {
+  font-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  text-decoration: none;
+  \
+}
+/* selected nav link */
+
+#navigation a.selected,
+#navigation a:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+}
+/*nav {
+  background-color: green;
+  text-align: center;
+}
+
+<!--nav li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: yellow;
+  padding: 15px;
+  margin: 5px;
+}*/
+
+#navigation a:hover {
+  color: grey;
+}
+/* This just adds some style to the placeholder text */
+/*#content {
+	width: 600px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}-->
+
+<!--#content img {
+	padding-top: 20px;
+	padding-bottom: 30px;*/
+
+{}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  text-align: center;
+}
+/*.text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}*/
+/*.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2em;
+}*/
+
+.phone {
+  text-align: right;
+  margin: 10px 0;
+  bottom: 10px;
+}
+
+.phone a {
+  color: white;
+  font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.phone a:hover {
+  color: red;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/main-wrapper.png');
+  background-color: #00842B;
+  <!--background-size: auto;
+  --> <!--opacity: .04;
+  --> font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 100%;
+}
+
+body {
+  padding: 0;
+  /* Gets rid of the automatic padding */
+  
+  margin: 0;
+  /*	on HTML documents */
+  
+  font-family: him;
+  font-size: 20px;
+}
+
+#wrapper {
+  background: #fff;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*img.lawn {
+  padding: 1px 1px 1px 1px;
+  border: 1px 1px 1px 1px solid #021a40;
+  background-color: black;
+  position: left;
+}*/
+/*.row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  align-items: center;
+}
+
+.cell {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+}*/
+
+img {
+  max-width: 100%;
+}
+
+.gallery {
+  padding-top: 0px;
+  width: 960px;
+  /* Joshua Sachtleben: I changed this from 25% to 960px to expand the gallery for the images.  This will need to be set to whatever you wish your grid size to be.  Since the <li> elements are floated left and set to display: inline-block, they will respond to the width of the .gallery element */
+  
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  border: 4px solid;
+  border-radius: 25px;
+  /*  overflow: hidden; */
+  /* Joshua Sachtleben: I disabled this because there isn't an obvious need for it unless you set a limit on the height of the parent container(s) */
+  /*  padding-left: 50px;*/
+  /* Joshua Sachtleben: I disabled this to not offset the centering of the internal content */
+  /*  float: left;*/
+  /* Joshua Sachtleben: I disabled this to allow the gallery to center itself within the viewport */
+}
+
+.gallery a {
+  margin: 2px;
+}
+
+ul.port li {
+  width: 200px auto;
+  display: inline-block;
+  vertical-align: top;
+}
+/*#primary {
+  width: 25%;
+  float: left;
+}
+
+#secondary {
+  width: 40%;
+  float: right;
+}*/
+/*.gallery li {
+  width: 28.3333%
+}
+
+.gallery li:nth-child(4n) {
+  clear: left/*
+}
+/*testing grid*/
+
+.port {
+  padding: 0.25em;
+  overflow: hidden;
+}
+
+.port li {
+  float: left;
+  width: 50%;
+  padding: 0.25em;
+}
+
+.port img {
+  display: block;
+}
+
+.port li:nth-child(odd) {
+  clear: left;
+}
+
+@media screen and (min-width: 40em) {
+  .port li {
+    width: 33.3333333333333333%;
+  }
+  .port li:nth-child(3n+1) {
+    clear: left;
+  }
+  .port li:nth-child(odd) {
+    clear: none;
+  }
+}
+
+@media screen and (min-width: 55em) {
+  .port li {
+    width: 25%;
+  }
+  .port li:nth-child(4n+1) {
+    clear: left;
+  }
+  .port li:nth-child(3n+1) {
+    clear: none;
+  }
+}
+
+@media screen and (min-width: 72em) {
+  .port li {
+    width: 20%;
+  }
+  .port li:nth-child(5n+1) {
+    clear: left;
+  }
+  .port li:nth-child(4n+1) {
+    clear: none;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .port li {
+    width: 16.666666666%;
+  }
+  .port li:nth-child(6n+1) {
+    clear: left;
+  }
+  .port li:nth-child(5n+1) {
+    clear: none;
+  }
+}
+
+p.line {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.index {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
