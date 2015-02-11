@@ -123,7 +123,6 @@ p.index {
   margin-right: 0;
   font-weight: normal;
 }
-
 .aerify {
   padding: 1px 1px 1px 1px;
   border: 1px 1px 1px 1px solid #021a40;
@@ -161,7 +160,8 @@ p.index {
   padding-right: 25px;
   color: white;
   text-decoration: none;
-  \
+  display: inline-block;
+  text-align: center;
 }
 /* selected nav link */
 
@@ -170,6 +170,7 @@ p.index {
   color: black;
   font-weight: bold;
   font-size: 2em;
+  display: inline;
 }
 /*nav {
   background-color: green;
