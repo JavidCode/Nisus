@@ -445,3 +445,8 @@ p.index {
   margin-right: auto;
   background-color: white;
 }
+
+@viewport {
+  zoom: 1.0;
+  width: device-width;
+}
