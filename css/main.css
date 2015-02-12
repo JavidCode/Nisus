@@ -211,10 +211,15 @@ p.index {
     width: 50%;
     text-align: center;
   }
+  img.slide {
+    max-width: 100%;
+  }
+  /*
   #slideshow {
     height: inherit;
     width: auto;
   }
+*/
 }
 
 img.logo {
