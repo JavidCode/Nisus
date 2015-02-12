@@ -203,7 +203,19 @@ p.index {
 	padding-top: 20px;
 	padding-bottom: 30px;*/
 
-{}
+@media only screen and (max-width: 767px) {
+  .main_menu,
+  #navigation {
+    /*    display: block;*/
+
+    width: 50%;
+    text-align: center;
+  }
+  #slideshow {
+    height: inherit;
+    width: auto;
+  }
+}
 
 img.logo {
   display: block;
