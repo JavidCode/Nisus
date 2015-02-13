@@ -210,9 +210,14 @@ p.index {
 
     width: 50%;
     text-align: center;
+    height: auto;
+    /*added to make nav automatically resize*/
   }
   img.slide {
     max-width: 100%;
+  }
+  .logo {
+    max-width: 75%;
   }
   .logo2 {
     width: 50%;
