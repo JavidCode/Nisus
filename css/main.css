@@ -164,6 +164,8 @@ p.index {
   text-decoration: none;
   display: inline-block;
   text-align: center;
+  background-color: green;
+  border: groove;
 }
 /* selected nav link */
 
@@ -228,7 +230,7 @@ p.index {
   footer {
     font-size: 1em;
   }
-  p {
+  .para {
     text-align: center;
     width: auto;
     margin-left: auto;
