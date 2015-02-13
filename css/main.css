@@ -205,6 +205,7 @@ p.index {
 	padding-top: 20px;
 	padding-bottom: 30px;*/
 /*Adding responsive stuff for below px*/
+/*mobile view*/
 
 @media only screen and (max-width: 767px) {
   .main_menu,
@@ -216,11 +217,15 @@ p.index {
     height: auto;
     /*added to make nav automatically resize*/
   }
+  header {
+    border-bottom: 2px solid white;
+    /*    margin-bottom: 60px;*/
+  }
   img.slide {
     max-width: 100%;
   }
-  .logo {
-    max-width: 125%;
+  img.logo {
+    width: 150%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -244,13 +249,24 @@ p.index {
   .gallery {
     padding-top: 0px;
     width: 500px;
+    vertical-align: center;
   }
+  padding-top: 0px;
+  width: 800px;
   /*
   #slideshow {
     height: inherit;
     width: auto;
   }
 */
+
+  li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+  }
 }
 
 img.logo {
@@ -259,7 +275,8 @@ img.logo {
   margin-right: auto;
   margin-top: auto;
   text-align: center;
-  width: 75%;
+  /*  width: 75%;*/
+
   height: auto;
 }
 /*.text {
@@ -378,7 +395,7 @@ img {
 
 .gallery {
   padding-top: 0px;
-  width: 800px;
+  /*  width: 800px;*/
   /* Joshua Sachtleben: I changed this from 25% to 960px to expand the gallery for the images.  This will need to be set to whatever you wish your grid size to be.  Since the <li> elements are floated left and set to display: inline-block, they will respond to the width of the .gallery element */
   
   height: auto;
