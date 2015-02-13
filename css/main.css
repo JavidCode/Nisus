@@ -69,7 +69,7 @@ p {
 }
 
 p.index {
-  background-color: white;
+  background-color: #308014;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -228,9 +228,6 @@ p.index {
     width: 50%;
     max-width: 25px;
   }
-  footer {
-    font-size: 1em;
-  }
   .para {
     text-align: center;
     width: auto;
@@ -238,9 +235,14 @@ p.index {
     margin-right: auto;
     background-color: white;
   }
-  #navigation a.selected {
-    font-size: 25px;
+  .line {
+    font-size: 1em;
   }
+}
+
+#navigation a.selected {
+  font-size: 0.55 em;
+}
 }
 /*
   #slideshow {
@@ -280,7 +282,10 @@ img.logo {
 }
 .phone a {
   color: white;
-  font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+  font-family: Lucida Grande,
+  Helvetica,
+  Arial,
+  sans-serif;
   font-size: 13px;
 }
 .phone a:hover {
@@ -301,7 +306,9 @@ body {
   /*background-size: auto;*/
   /*opacity: .04;*/
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial,
+  Helvetica,
+  sans-serif;
   font-size: 14px;
   width: 100%;
 }
@@ -427,11 +434,9 @@ ul.port li {
   .port li {
     width: 33.3333333333333333%;
   }
-
   .port li:nth-child(3n+1) {
     clear: left;
   }
-
   .port li:nth-child(odd) {
     clear: none;
   }
@@ -440,11 +445,9 @@ ul.port li {
   .port li {
     width: 25%;
   }
-
   .port li:nth-child(4n+1) {
     clear: left;
   }
-
   .port li:nth-child(3n+1) {
     clear: none;
   }
@@ -453,11 +456,9 @@ ul.port li {
   .port li {
     width: 20%;
   }
-
   .port li:nth-child(5n+1) {
     clear: left;
   }
-
   .port li:nth-child(4n+1) {
     clear: none;
   }
@@ -466,11 +467,9 @@ ul.port li {
   .port li {
     width: 16.666666666%;
   }
-
   .port li:nth-child(6n+1) {
     clear: left;
   }
-
   .port li:nth-child(5n+1) {
     clear: none;
   }
