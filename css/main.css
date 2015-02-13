@@ -205,6 +205,8 @@ p.index {
 	padding-top: 20px;
 	padding-bottom: 30px;*/
 
+
+/*Adding responsive stuff for below px*/
 @media only screen and (max-width: 767px) {
   .main_menu,
   #navigation {
