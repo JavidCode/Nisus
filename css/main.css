@@ -214,6 +214,10 @@ p.index {
   img.slide {
     max-width: 100%;
   }
+  .logo2 {
+    width: 33%;
+    max-width: 10px;
+  }
   /*
   #slideshow {
     height: inherit;
