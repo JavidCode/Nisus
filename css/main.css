@@ -241,14 +241,17 @@ p.index {
   #navigation a.selected {
     font-size: 0.55 em;
   }
-}
-/*
+  .gallery {
+    width: auto;
+  }
+  /*
   #slideshow {
     height: inherit;
     width: auto;
   }
 */
 }
+
 img.logo {
   display: block;
   margin-left: auto;
@@ -278,14 +281,17 @@ img.logo {
   margin: 10px 0;
   bottom: 10px;
 }
+
 .phone a {
   color: white;
   font-family: Lucida Grande, Helvetica, Arial, sans-serif;
   font-size: 13px;
 }
+
 .phone a:hover {
   color: red;
 }
+
 footer {
   font-size: 0.75em;
   text-align: center;
@@ -293,6 +299,7 @@ footer {
   padding-top: 50px;
   color: #ccc;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -305,6 +312,7 @@ body {
   font-size: 14px;
   width: 100%;
 }
+
 body {
   padding: 0;
   /* Gets rid of the automatic padding */
@@ -315,6 +323,7 @@ body {
   font-family: him;
   font-size: 20px;
 }
+
 #wrapper {
   background: #fff;
   max-width: 600px;
@@ -365,6 +374,7 @@ body {
 img {
   max-width: 100%;
 }
+
 .gallery {
   padding-top: 0px;
   width: 960px;
@@ -382,9 +392,11 @@ img {
   /*  float: left;*/
   /* Joshua Sachtleben: I disabled this to allow the gallery to center itself within the viewport */
 }
+
 .gallery a {
   margin: 2px;
 }
+
 ul.port li {
   width: 200px auto;
   display: inline-block;
@@ -412,69 +424,69 @@ ul.port li {
   padding: 0.25em;
   overflow: hidden;
 }
+
 .port li {
   float: left;
   width: 50%;
   padding: 0.25em;
 }
+
 .port img {
   display: block;
 }
+
 .port li:nth-child(odd) {
   clear: left;
 }
+
 @media screen and (min-width: 40em) {
   .port li {
     width: 33.3333333333333333%;
   }
-
   .port li:nth-child(3n+1) {
     clear: left;
   }
-
   .port li:nth-child(odd) {
     clear: none;
   }
 }
+
 @media screen and (min-width: 55em) {
   .port li {
     width: 25%;
   }
-
   .port li:nth-child(4n+1) {
     clear: left;
   }
-
   .port li:nth-child(3n+1) {
     clear: none;
   }
 }
+
 @media screen and (min-width: 72em) {
   .port li {
     width: 20%;
   }
-
   .port li:nth-child(5n+1) {
     clear: left;
   }
-
   .port li:nth-child(4n+1) {
     clear: none;
   }
 }
+
 @media screen and (min-width: 90em) {
   .port li {
     width: 16.666666666%;
   }
-
   .port li:nth-child(6n+1) {
     clear: left;
   }
-
   .port li:nth-child(5n+1) {
     clear: none;
   }
 }
+
 p.line {
   text-align: center;
   margin-left: auto;
