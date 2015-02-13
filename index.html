@@ -59,11 +59,25 @@
     <a href="grounds.html" title="Grounds Maintenance">Grounds Maintainence</a>
     <a href="about.html" title="About Us">About Us</a>
     <a href="contact.html" title="Contact Us">Contact Us</a>
-    <a href="#" title="Free Estimate">Free Estimate</a>
+    <script type="text/javascript">
+      function confirm_alert(node) {
+        return confirm("Give us a call at (513)-739-8414.");
+      }
+    </script>
+    <a href="#" title="Free Estimate">
+      <href="#" onclick="return confirm_alert(this);">Free Estimate</a>
+
   </div>
   <div id="content">
 
-
+    <!--
+    <script type="text/javascript">
+      function confirm_alert(node) {
+        return confirm("Please click on OK to continue.");
+      }
+    </script>
+    <a href="http://www.google.com" onclick="return confirm_alert(this);">Click Me</a>
+-->
   </div>
 
   <!--Slideshow begin-->
@@ -85,6 +99,15 @@
 
     });
   </script>
+  <!--
+  <button onclick="myFunction()">Try it</button>
+
+  <script>
+    function myFunction() {
+      alert("I am an alert box!");
+    }
+  </script>
+-->
 
 
   <!--
