@@ -242,7 +242,8 @@ p.index {
     font-size: 0.55 em;
   }
   .gallery {
-    width: auto;
+    padding-top: 0px;
+    width: 500px;
   }
   /*
   #slideshow {
@@ -377,7 +378,7 @@ img {
 
 .gallery {
   padding-top: 0px;
-  width: 960px;
+  width: 800px;
   /* Joshua Sachtleben: I changed this from 25% to 960px to expand the gallery for the images.  This will need to be set to whatever you wish your grid size to be.  Since the <li> elements are floated left and set to display: inline-block, they will respond to the width of the .gallery element */
   
   height: auto;
@@ -428,7 +429,7 @@ ul.port li {
 .port li {
   float: left;
   width: 50%;
-  padding: 0.25em;
+  padding: 0.75em;
 }
 
 .port img {
