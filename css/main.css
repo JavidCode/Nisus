@@ -218,6 +218,9 @@ p.index {
     width: 50%;
     max-width: 25px;
   }
+  footer {
+    font-size: 1em;
+  }
   /*
   #slideshow {
     height: inherit;
